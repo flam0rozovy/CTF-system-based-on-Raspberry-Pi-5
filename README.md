@@ -1,4 +1,4 @@
-# CTF Infrastructure on Raspberry Pi 5
+# CTF инфраструктура на базе Raspberry Pi 5
 
 Бюджетная CTF-инфраструктура для проведения локальных соревнований по кибербезопасности на базе Raspberry Pi.
 
