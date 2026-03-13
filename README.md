@@ -1,4 +1,4 @@
-# CTF инфраструктура на базе Raspberry Pi 5
+# CTF-инфраструктура на базе Raspberry Pi 5
 
 Бюджетная CTF-инфраструктура для проведения локальных соревнований по кибербезопасности на базе Raspberry Pi.
 
@@ -25,6 +25,19 @@
 - студенты и энтузиасты информационной безопасности  
 - малые IT-стартапы  
 - организаторы CTF-соревнований и олимпиад  
+
+---
+
+## 📊 Сравнение существующих решений
+
+| Критерий | Профессиональное серверное оборудование | Настольный сетевой тренажёр (UnifyLab) | CTF-инфраструктура на Raspberry Pi 5 |
+|----------|------------------------------------------|-----------------------------------------|--------------------------------------|
+| Стоимость внедрения | Высокая (от 200 000 руб.) | Высокая (поставка крупными партиями) | Низкая |
+| Энергопотребление | Высокое | Среднее | Низкое |
+| Возможность модернизации | Допускается | Ограничена условиями гарантии | Свободная |
+| Зависимость от производителя | Низкая | Высокая | Низкая |
+| Гибкость конфигурации | Средняя | Ограниченная | Высокая |
+| Масштабируемость | Требует значительных затрат | Ограничена моделью поставки | Реализуется добавлением узлов |
 
 ---
 
@@ -57,11 +70,11 @@
 
 Основные инструменты:
 
-- Nmap
-- Burp Suite
-- Metasploit Framework
-- John the Ripper
-- Wireshark
+- Nmap  
+- Burp Suite  
+- Metasploit Framework  
+- John the Ripper  
+- Wireshark  
 
 ---
 
@@ -69,19 +82,19 @@
 
 ### Сервер
 
-- Ubuntu Server
-- Docker
-- Docker Compose
-- CTFd
-- MySQL
-- Redis
-- Python
-- Gunicorn
+- Ubuntu Server  
+- Docker  
+- Docker Compose  
+- CTFd  
+- MySQL  
+- Redis  
+- Python  
+- Gunicorn  
 
 ### Клиенты
 
-- Kali Linux
-- инструменты пентестинга
+- Kali Linux  
+- инструменты пентестинга  
 
 ---
 
@@ -107,11 +120,11 @@ http://localhost:8000
 
 В CTF могут использоваться задачи следующих категорий:
 
-- Web
-- Cryptography
-- Reverse Engineering
-- Steganography
-- Network Security
+- Web  
+- Cryptography  
+- Reverse Engineering  
+- Steganography  
+- Network Security  
 
 ---
 
@@ -142,4 +155,4 @@ http://localhost:8000
 - https://ubuntu.com/download/raspberry-pi  
 - https://www.kali.org  
 - https://servermall.ru  
-- https://unify-lab.ru
+- https://unify-lab.ru  
